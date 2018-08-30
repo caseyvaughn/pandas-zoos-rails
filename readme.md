@@ -16,7 +16,7 @@ Your app should have the following routes working:
 
 ### POST
 - /authors should allow you to create a new author.
-- /authors/:author_id/books/:id should allow you to create a new book.
+- /authors/:author_id/books/ should allow you to create a new book.
 
 ### PUT/PATCH
 - /authors/:author_id should allow you to edit an author
@@ -27,19 +27,20 @@ Your app should have the following routes working:
 - /authors/:author_id/books/:id should allow you to delete a specific book.
 
 ## Getting started
-start a new rails project with
+ - generate a new rails project with ```rails new your_project_name_here --database=postgresql --api```
 
- ```rails new your_project_name_here --database=postgresql --api```
+- next `cd` into your project and run `rails db:create`
 
+ - next use the rails generator to generate your models you will want to run `rails g model Author` and `rails g model Book`
 
- next ```cd``` into your project and run ```rails db:create```
+- update the migration files accordingly based on the resource structure outlined above
 
- next use the rails generator to generate your models you will want to run ```rails g model Author``` and ```rails g model Book```
-
- Add your table structure to the migration files that were created when you created your models and then run ```rails db:migrate```
+- run `rails db:migrate`
 
  Go ahead and add some data to your tables from the rails console. There is some seed data [here](seeds.rb). If you want to use that cut and paste the data into the seeds file in your project and run ```rails db:seed```
 
- Next you need to configure your routes and write your controllers. As you go, remember to test with postman.
+At this point, you are ready to implement the necessary routes / controller actions to fill out the app.  Remember you can generate a controller with `rails generate controller <Plural Controller Name, e.g. Users or Tweets>`.  If you need a reference for either the routes or controller code don't hesitate to look over the README's from today's lessons.
 
- When you are finished push up your repo and create an issue ticket on this repo with a link to yours.
+Try to test frequently with Postman!
+
+When you are finished push up your repo and create an issue ticket on this repo with a link to yours.
