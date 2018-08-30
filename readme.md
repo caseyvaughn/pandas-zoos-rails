@@ -2,7 +2,7 @@
 
 # Homework
 
-Tonight your homework is to create a two model rails app that serves json. Your database should be structures as follows:
+Tonight your homework is to create a two model rails app that serves json. Your database should be structured as follows:
 
 - Authors table with first name and last name columns.
 - Books table with title and author id.
