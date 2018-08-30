@@ -29,9 +29,9 @@ Your app should have the following routes working:
 ## Getting started
  - generate a new rails project with ```rails new your_project_name_here --database=postgresql --api```
 
-- next `cd` into your project and run `rails db:create`
+- next `cd` into your project and run `rails db:create`.
 
- - next use the rails generator to generate your models you will want to run `rails g model Author` and `rails g model Book`
+ - next use the rails generator to generate your models. You will want to run `rails g model Author` and `rails g model Book`.
 
 - update the migration files accordingly based on the resource structure outlined above. You can use [this](https://git.generalassemb.ly/wdi-nyc-lambda/active_record_intro/blob/master/demo/db/migrate/20170901040406_create_courses.rb) as a reference for how your migration should look.
 
