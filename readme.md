@@ -19,7 +19,7 @@ Since a zoo houses many pandas, but each panda only lives at one zoo, this is a 
 
 - `cd` into the project and run `rails db:create`
 
-- use the rails generator to generate your two models
+- use the rails generator to generate your associated models like so: `rails g model zoo name city`, `rails g model panda name age:integer zoo:references`
 
 - update the models files accordingly based on this one-to-many relationship
 
