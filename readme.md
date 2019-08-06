@@ -21,11 +21,11 @@ Since a zoo houses many pandas, but each panda only lives at one zoo, this is a 
 
 - use the rails generator to generate your two models
 
-- update the migration files accordingly based on this one-to-many relationship
+- update the models files accordingly based on this one-to-many relationship
 
 - run `rails db:migrate`
 
-- create your routes by adding the resources for pandas and zoos in your `routes.rb` file
+- create your routes by adding the resources for pandas and zoos in your `routes.rb` file and confirm that they were created using `rails routes` in the terminal
 
 Go ahead and add some data to your tables from the rails console. I gave you some seed data [here](seeds.rb) that also creates associations between the two tables. If you want to use that cut and paste the data into the seeds file in your project and run `rails db:seed`.
 
