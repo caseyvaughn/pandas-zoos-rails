@@ -1,3 +1,5 @@
+# creating the data
+
 Zoo.create!([
   {name: "San Diego Zoo", city: "San Diego"},
   {name: "Bifengxia Panda Center", city: "Ya’an"},
@@ -12,3 +14,12 @@ Panda.create!([
   {name: "Basi", age: 37},
   {name: "Drake Talley", age: 102}
 ])
+
+# associating the tables
+
+zoos = Zoo.all
+pandas = Panda.all
+
+pandas.each do |panda|
+  zoos[rand(0..zoos.length)].pandas << panda
+end
