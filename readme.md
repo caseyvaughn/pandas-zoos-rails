@@ -25,6 +25,8 @@ Since a zoo houses many pandas, but each panda only lives at one zoo, this is a 
 
 - run `rails db:migrate`
 
+- create your routes by adding the resources for pandas and zoos in your `routes.rb` file
+
 Go ahead and add some data to your tables from the rails console. I gave you some seed data [here](seeds.rb) that also creates associations between the two tables. If you want to use that cut and paste the data into the seeds file in your project and run `rails db:seed`.
 
 At this point, you are ready to implement the necessary routes / controller actions to fill out the app. Remember you can generate a controller with, for example, `rails g controller Pandas`. 
