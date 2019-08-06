@@ -1,18 +1,14 @@
-Author.create!([
-  {name_first: "Herman", name_last: "Melville"},
-  {name_first: "Don", name_last: "Delillo"},
-  {name_first: "Virginia", name_last: "Woolf"},
-  {name_first: "Drake", name_last: "Talley"}
+Zoo.create!([
+  {name: "San Diego Zoo", city: "San Diego"},
+  {name: "Bifengxia Panda Center", city: "Ya’an"},
+  {name: "Gonggashan", city: "Kangding"},
+  {name: "Edinburgh Zoo", city: "Edinburgh"}
+  {name: "General Assembly", city: "New York"}
 ])
-Book.create!([
-  {title: "Moby Dick", author_id: 1},
-  {title: "Bartleby the Scrivener", author_id: 1},
-  {title: "Typee", author_id: 1},
-  {title: "White Noise", author_id: 2},
-  {title: "Ratner's Star", author_id: 2},
-  {title: "Underworld", author_id: 2},
-  {title: "A Room of One's Own", author_id: 3},
-  {title: "Orlando", author_id: 3},
-  {title: "To the Lighthouse", author_id: 3},
-  {title: "JZ is better looking than me: One dev's journey to truth", author_id: 4}
+Panda.create!([
+  {name: "Bai Yun", age: 28},
+  {name: "Gao Gao", age: 27},
+  {name: "Tian Tian", age: 21},
+  {name: "Basi", age: 37},
+  {name: "Drake Talley", age: 102}
 ])
