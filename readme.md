@@ -35,7 +35,7 @@ You will need to build full CRUD functionality for this app.
 
 ### React
 
-Inside the rails directory, create a new React app with `create-react-app client`. Build out a basic front end that makes axios calls to your database and demonstrates the app's CRUD functionality.
+Inside the rails directory, create a new React app with `create-react-app client`. Build out a basic front end that makes axios calls to your database and demonstrates the app's functionality.
 
 ## Bonus
 
