@@ -15,7 +15,7 @@ Since a zoo houses many pandas, but each panda only lives at one zoo, this is a 
 
 - `cd` into the project directory
 
-- generate a new rails project with `rails new pandas -G --database=postgresql --api`
+- generate a new rails project with `rails new . -MT --skip-active-storage --database=postgresql --api`
 
 - `cd` into the project and run `rails db:create`
 
