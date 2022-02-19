@@ -1,8 +1,8 @@
 class PandasController < ApplicationController
   def index
-    @pandas = Panda.all
+    @panda = Panda.all
 
-    render json: @pandas
+    render json: @panda
   end
 
   # GET /Pandas/1
